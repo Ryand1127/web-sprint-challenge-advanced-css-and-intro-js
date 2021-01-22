@@ -23,9 +23,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
+    
+    Accessibility allows users with differences to access the website.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    Add semantic HTML, responsive design elements/sizing, alt tags in images.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    A variable is a container that is used to store a certain type of data.
+
 4. What is the purpose of using functions in code?
+
+    A function is used for accomplishing a certain task. They will take data in
+    and then return data.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -47,8 +59,8 @@ NOTE: Tests will run for the JavaScript portion of this challenge only
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [X] Add a viewport meta tag to the head of your index.html page.
+* [X] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
