@@ -211,7 +211,8 @@ Practice accessing data above by console.log-ing following items:
   console.log(artists[0].name);
 
 //(2) Bio of the third artist (2nd index) in the array 
-  console.log(artists[2].bio);
+  console.log(artists[2].b
+    io);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -267,8 +268,8 @@ console.log(artists);
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(array, ind){
-  array.shift(ind);
+function removeArtist(array, numIndex){
+  array.shift(numIndex);
   return array.length;
 }
 console.log(artists,0);
@@ -313,10 +314,10 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array){
-  const lotsLots = [];
+  const tonOfArt = [];
   for(let i = 0; i < array.length; i++){
     if(array[i].paintings > 100){
-      lotsLots.push(array[i].name);
+      tonOfArt.push(array[i].name);
     }
   }
   return lotsLots;
