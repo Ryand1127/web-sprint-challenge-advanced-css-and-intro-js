@@ -211,8 +211,7 @@ Practice accessing data above by console.log-ing following items:
   console.log(artists[0].name);
 
 //(2) Bio of the third artist (2nd index) in the array 
-  console.log(artists[2].b
-    io);
+  console.log(artists[2].bio);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -320,7 +319,7 @@ function lotsOfArt(array){
       tonOfArt.push(array[i].name);
     }
   }
-  return lotsLots;
+  return tonOfArt;
 }
 
 console.log(artists);
